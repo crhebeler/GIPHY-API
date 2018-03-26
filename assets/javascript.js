@@ -9,7 +9,10 @@ var ENDPOINT = 'search';
 var LIMIT = '12';
 var RATING = 'pg';}
 
-////search function//
+
+
+
+//create a loop for array 
 
 
 // Event listener for our the image-button
@@ -42,3 +45,8 @@ $("#gif-button").on("click", function() {
         $("#images").prepend(gifImage);
       });
   });
+
+  /// make its so it gets 10 images and just not one
+
+
+  /// animate /// and pause the gif//
